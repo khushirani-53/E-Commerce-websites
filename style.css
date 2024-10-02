@@ -1,0 +1,209 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'montserrat',sans-serif;
+   scroll-behavior: smooth;
+}
+.logo{
+    height: 6rem;
+    width: 6rem;
+}
+.bg-light-gray{
+    background-color: rgb(241,240,240);
+
+}
+.section_title h1{
+    text-decoration: underline;
+}
+cart a{
+    text-decoration: name;
+    list-style: none;
+}
+.cart a:hover{
+    text-decoration: none;
+    list-style: none;
+}
+.bg_cart_1{
+    background-color: #8ec5fc;
+    background-image:linear-gradient(62deg ,#8ec5fc 0%, #e0c3fc 100%);
+}
+.list-group-item{
+    background-color:inherite !important;
+}
+
+/* Latest Products Section */
+/* .products {
+    background-color: #f8f9fa;
+} */
+
+.section_title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.single_product {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.single_product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.single_product .product_img img {
+    width: 100%; /* Ensures all images take full width of container */
+    height: 300px; /* Fixed height for uniform size */
+    object-fit: cover; /* Ensures image is cropped proportionally */
+    transition: transform 0.3s ease-in-out;
+}
+
+.single_product .product_img:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.new_product {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.product-caption {
+    padding: 15px;
+}
+
+.product-caption h4 a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.product-caption h4 a:hover {
+    color: #007bff;
+}
+
+.product-caption .price {
+    font-size: 20px;
+    color: #007bff;
+}
+
+.product-ratting i {
+    color: #ffc107; /* Star color */
+}
+
+.low-star {
+    color: #ddd; /* Faded color for unrated stars */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .single_product {
+        margin-bottom: 20px;
+    }
+
+    .single_product .product_img img {
+        height: 250px; /* Slightly smaller height for mobile */
+    }
+}
+
+/* Features Section */
+
+.section_title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.feature .shadow {
+    background-color: #007bff;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.feature .shadow:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.feature div {
+    color: #f8f9fa;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.feature i {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.feature i:hover {
+    color: #ffcc00;
+}
+
+@media (max-width: 768px) {
+    .feature .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
+.backtop{
+    margin-left: 75rem;
+    margin-top: -3rem;
+}
+/* product details */
+.related_products {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 40px 0; /* Additional padding for a more spacious layout */
+}
+
+.related_products .title h3 {
+    font-size: 2rem; /* Title size */
+    font-weight: 700; /* Bold title */
+    text-align: center; /* Centered title */
+    margin-bottom: 30px; /* Spacing below the title */
+}
+
+.related_products .border {
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.related_products .border:hover {
+    transform: translateY(-10px); /* Slight lift effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.related_products img {
+    border-radius: 10px; /* Rounded corners for images */
+    max-height: 200px; /* Limit height for uniformity */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+}
+
+.related_products h5 {
+    font-size: 1.2rem; /* Title size for product names */
+    color: #333; /* Text color for product names */
+    margin-top: 15px; /* Space above product names */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.related_products h5:hover {
+    color: #2980b9; /* Change color on hover */
+}
+.related_products img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+    transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
+}
+.avatar {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+

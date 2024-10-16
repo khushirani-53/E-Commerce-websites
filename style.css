@@ -6,9 +6,10 @@
    scroll-behavior: smooth;
 }
 .logo{
-    height: 6rem;
-    width: 6rem;
+    height: 5rem;
+    width: 5rem;
 }
+
 .bg-light-gray{
     background-color: rgb(241,240,240);
 
